@@ -1,0 +1,28 @@
+@import "./styles/_core.scss";
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #100404;
+}
+
+svg{
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+}
+
+.invis{
+  display: none;
+}
+
